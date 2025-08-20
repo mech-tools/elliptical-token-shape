@@ -96,11 +96,12 @@ Hooks.once("setup", () => {
     "foundry.canvas.placeables.Token.prototype.getShape",
     function (wrapper, ...args) {
       const shape = this.document.shape;
+      const hasPlayerOwner = this.document.actor.hasPlayerOwner;
       if (
         (!this.scene.grid.isGridless &&
           (shape === CONST.TOKEN_SHAPES.ELLIPSE_1 || shape === CONST.TOKEN_SHAPES.ELLIPSE_2)) ||
-        (pcs && this.document.actor.owners.length > 0) ||
-        (npcs && this.document.actor.owners.length === 0)
+        (pcs && hasPlayerOwner) ||
+        (npcs && !hasPlayerOwner)
       ) {
         const { width, height } = this.document.getSize();
         if (width === height) {
