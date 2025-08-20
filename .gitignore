@@ -1,0 +1,18 @@
+# Project related
+elliptical-token-shape.mjs
+elliptical-token-shape.mjs.map
+elliptical-token-shape.css
+
+# Node Modules
+node_modules/
+yarn.lock
+
+# Lock files
+package-lock.json
+
+# IDE
+.idea/
+.vs/
+
+# Finder (MacOS) folder config
+.DS_Store

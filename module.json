@@ -1,0 +1,59 @@
+{
+  "id": "elliptical-token-shape",
+  "title": "Elliptical Token Shape",
+  "description": "<p>This module allows ellipses as token shapes even without a gridless scene.</p>",
+  "version": "#{VERSION}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "url": "https://github.com/mech-tools/elliptical-token-shape",
+  "readme": "https://github.com/mech-tools/elliptical-token-shape/blob/master/README.md",
+  "changelog": "https://github.com/mech-tools/elliptical-token-shape/releases",
+  "bugs": "https://github.com/mech-tools/elliptical-token-shape/issues",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Maxime",
+      "url": "https://github.com/mech-tools",
+      "discord": "Maxime1562"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      }
+    ]
+  },
+  "esmodules": ["elliptical-token-shape.mjs"],
+  "styles": [
+    {
+      "src": "elliptical-token-shape.css"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "languages/fr.json",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "hotReload": {
+      "extensions": ["css", "hbs", "json"],
+      "paths": ["elliptical-token-shape.css", "templates/", "languages/"]
+    }
+  },
+  "socket": true
+}
