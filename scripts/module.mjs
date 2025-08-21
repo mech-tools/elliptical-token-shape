@@ -23,7 +23,7 @@ PIXI.Ellipse.prototype.toPolygon = function (steps = 32) {
 };
 
 /* -------------------------------------------- */
-/* FoundryVTT Init
+/* Foundry VTT Initialization
 /* -------------------------------------------- */
 
 const SETTINGS = {
@@ -54,7 +54,7 @@ Hooks.once("init", () => {
 });
 
 /* -------------------------------------------- */
-/* libWrapper Ready
+/* Foundry VTT Setup (libWrapper is ready)
 /* -------------------------------------------- */
 
 Hooks.once("setup", () => {
