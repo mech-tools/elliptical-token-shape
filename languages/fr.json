@@ -1,7 +1,7 @@
 {
   "elliptical-token-shape": {
     "pcs-name": "Ellipse par défaut pour les PJs",
-    "pcs-hint": "Forcer une ellipse comme forme de tous les tokens possédés par au moins un joueurs, quelque soit la configuration du token et ou de la scène.",
+    "pcs-hint": "Forcer une ellipse comme forme de tous les tokens possédés par au moins un joueur, quelque soit la configuration du token et ou de la scène.",
     "npcs-name": "Ellipse par défaut pour les PNJs",
     "npcs-hint": "Forcer une ellipse comme forme de tous les tokens possédés par aucun joueur, quelque soit la configuration du token et ou de la scène."
   }
